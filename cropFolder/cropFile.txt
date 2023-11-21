@@ -1,0 +1,5 @@
+id,name,crop type,quantity
+1,Beef,Meat,30
+2,Sunflower Seeds,Seed,5000
+3,Pig Food,Feed,10
+4,Hamster Food,Feed,800
