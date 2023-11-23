@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a825f253-c844-4bd8-84b4-759fba2e9614" name="Changes" comment="Optimiezed Code" />
+    <list default="true" id="a825f253-c844-4bd8-84b4-759fba2e9614" name="Changes" comment="Optimiezed Code">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AnimalHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AnimalHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CropHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CropHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Farm.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +17,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,7 +56,7 @@
       <workItem from="1700317677799" duration="1770000" />
       <workItem from="1700557402133" duration="108000" />
       <workItem from="1700557522648" duration="2794000" />
-      <workItem from="1700560507463" duration="1054000" />
+      <workItem from="1700560507463" duration="5720000" />
     </task>
     <task id="LOCAL-00001" summary="Optimiezed Code">
       <created>1700561052882</created>
@@ -73,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700561210978</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Optimiezed Code">
+      <created>1700561824335</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700561824335</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

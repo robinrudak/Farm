@@ -5,7 +5,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class CropHandler {
-    AnimalHandler AnimalHandler = new AnimalHandler();
+    AnimalHandler AnimalHandler;
+
+    public void setAnimalHandler(AnimalHandler animalHandler) {
+        AnimalHandler = animalHandler;
+    }
     ArrayList<Crop> cropList = new ArrayList<>();
     File cropFolder = new File("cropFolder");
     File cropFile = new File("cropFolder/cropFile.txt");

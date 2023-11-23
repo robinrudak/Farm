@@ -7,7 +7,6 @@ public class AnimalHandler {
     ArrayList<Animal> animalList = new ArrayList<>();
     File animalFolder = new File("animalFolder");
     File animalFile = new File("animalFolder/animalFile.txt");
-    Scanner scanner = new Scanner(System.in);
     public void viewAnimals() {
         for (Animal animal : animalList) {
             System.out.println(animal.getDescription());
@@ -38,7 +37,7 @@ public class AnimalHandler {
                     }
                 }
 
-                if (found == false) {
+                if (!found) {
                     System.out.println("No item with that ID was found.");
 
                 }
@@ -78,7 +77,7 @@ public class AnimalHandler {
 
             bf.close();
         } catch (IOException e) {
-
+            System.out.println("Load Failed");
         }
     }
     public void saveAnimal() {
@@ -93,7 +92,7 @@ public class AnimalHandler {
             }
             bf.close();
         } catch (IOException e) {
-
+            System.out.println("save failed");
         }
     }
 
